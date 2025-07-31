@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="CSS/index.css">
+    <title>Sitio web Luis</title>
+     
+    
+    
+    <div class="menu-lateral" id="menuLateral">
+    <button class="cerrar-btn" onclick="cerrarMenu()">✖</button>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pagina1.html">pagina1</a></li>
+      <li><a href="Pagina2.html">Pagina2</a></li>
+      <li><a href="pagina3.html">pagina3</a></li>
+            <li><a href="Pagina4.html">Pagina4</a></li>
+      <li><a href="pagina5.html">pagina5</a></li>
+      <li><a href="pagina6.html">pagina6</a></li>
+      <li><a href="pagina7.html">pagina7</a></li>
+      <li><a href="Tablas.html">tablas</a></li>
+      <li><a href="Dulce_Aroma.html">Cafeteria</a></li>
+    </ul>
+  </div>
+
+  <button class="abrir-menu" onclick="abrirMenu()">☰</button>
+
+  <script>
+    function abrirMenu() {
+      document.getElementById("menuLateral").classList.add("activo");
+    }
+
+    function cerrarMenu() {
+      document.getElementById("menuLateral").classList.remove("activo");
+    }
+  </script>
+
+</body>
+</html>
